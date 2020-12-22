@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        looping
+    </title>
+
+
+    <!--      print 
+ -->
+    <!--  <script>                                   
+        function print() {
+            var input = 6;
+            for (i = 0; i <= input; i++) {
+                document.write("<br>");
+                for (j = 1; j < i; j++) {
+                    document.write("*");
+
+                }
+            }
+        }
+        print();
+
+    </script> -->
+
+    <!--     reverse print
+ -->
+    <!--     <script>
+        function reverseprint() {
+            var input = 6;
+            for (i = 0; i <= input; i++) {
+                document.write("<br>");
+                for (j = 7; j >= i; j--) {
+                    document.write("*");
+
+                }
+            }
+        }
+        reverseprint();
+
+    </script>  -->
+
+
+    <!--     /*   document.write("<br>"); */
+ -->
+    <!--  <script>
+        function triangleprint() {
+            int i, j,row= 6;
+            for (i = 0; i < row; i++) {
+                for (j =row-i;j>i; j--) {
+                    document.write("<br>");
+                    for(j=0;j<=i;j++){
+                        document.write("*");
+                    }
+
+                }
+            }
+        }
+        triangleprint();
+
+    </script>  --><!-- 
+
+
+
+ <script>
+        function pyramid(n) {
+            int i=0,j, k=5;
+            for (var i = 0; i < n; i++) {
+                var str = '';
+                for (var j = 1; j < n - 1; j++) {
+                    str = str + ' ';
+
+                }
+                for (var k = 1; k <= (2 * i + 1); k++) {
+                    str = str + '*';
+                }
+            }
+        }
+         pyramid();  
+
+
+    </script>   
+ 
+
+
+       <script>
+        function print(){
+
+            var input = 5;
+            for (i = 0; i <= input; i++) {
+                document.write("<br/>");
+                for (j = 6; j >= i; j--) {
+                    document.write("*");
+
+                }
+            }
+        }
+        print();
+    </script>  -->
+
+<script>
+    function invertedpyramid() {
+        for (var i = 0; i < 6; i++) {
+            for (var j = 0; j < i; j++) {
+                document.write("&nbsp;&nbsp;");
+
+            }
+            for (var j = 6; j > i; j--) {
+                document.write("*");
+                if (j > i + 1) document.write("&nbsp;&nbsp;");
+
+            }
+            document.write('<br>')
+        }
+    }
+    invertedpyramid();
+</script> 
+
+
+
+    <!--  <script>
+        function print() {
+            for (var i = 0; i < 5; i++) {
+                for (var j = 0; j < i; j++) {
+                    document.write("&nbsp;&nbsp;&nbsp;");                       
+                                                                            
+                }                                                                 
+                for (var j = 5; j > i; j--) {                                      
+                    document.write("*");                                             
+                    if (j > i + 1) document.write("&nbsp;");
+
+                }
+                document.write('<br>')
+            }
+        }
+        print();
+    </script> 
+
+
+    
+
+
+
+    <script>
+        function pyramid() {
+            var input = 6;
+            for (var i = 0; i <= input; i++) {
+                for (var j = 0; j < i; j++) {
+                    document.write("&nbsp;");
+
+                }
+                for (var j = 1; j < i; j++) {
+                    document.write("*");
+                    if (j > i + 1) document.write("&nbsp;");
+
+                }
+                document.write('<br>')
+            }
+        }
+        pyramid(); 
+    </script>
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>
